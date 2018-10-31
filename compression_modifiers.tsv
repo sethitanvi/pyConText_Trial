@@ -1,29 +1,29 @@
-Lex	Type	Regex	Direction	Unnamed: 4	Unnamed: 5	Unnamed: 6	Codes
-are ruled out	DEFINITE_NEGATED_EXISTENCE		backward				
-be ruled out	INDICATION		backward				
-being ruled out	INDICATION		backward				
-can be ruled out	DEFINITE_NEGATED_EXISTENCE		backward				
-cannot be excluded	AMBIVALENT_EXISTENCE		backward				
-cannot totally be excluded	PROBABLE_NEGATED_EXISTENCE		backward				
-could be ruled out	DEFINITE_NEGATED_EXISTENCE		backward				
-examination	INDICATION	\b(examination|exam|study)\b	backward				
-free	DEFINITE_NEGATED_EXISTENCE		backward				
-has been ruled out	DEFINITE_NEGATED_EXISTENCE		backward				
-have been ruled out	DEFINITE_NEGATED_EXISTENCE		backward				
-is in the differential	AMBIVALENT_EXISTENCE	is\sin\sthe\sdifferential	backward				
-is negative	DEFINITE_NEGATED_EXISTENCE	(is|was) negative	backward				
-is not excluded	AMBIVALENT_EXISTENCE	(is|was|are|were)\snot\sexcluded	backward				
-is not entirely excluded	PROBABLE_NEGATED_EXISTENCE	(is|was|are|were|does)\snot\s(entirely|totally|definitely|completely\s) excluded	backward	2/28/2013	added definitely	removed ed	
-is present	DEFINITE_EXISTENCE	(is|are) present	backward	4/29/2013			
-is ruled out	DEFINITE_NEGATED_EXISTENCE		backward				
-is to be ruled out	INDICATION		backward				
-is ruled out	DEFINITE_NEGATED_EXISTENCE		backward				
-might be ruled out	PROBABLE_NEGATED_EXISTENCE		backward				
-must be ruled out	DEFINITE_NEGATED_EXISTENCE		backward				
-not been ruled out	INDICATION		backward				
-not definitively seen	PROBABLE_NEGATED_EXISTENCE	not definitively (seen|visualized)	backward	3/22/2013			
-not excluded	AMBIVALENT_EXISTENCE	not\s(excluded|ruled\sout)	backward				
-now measuring	HISTORICAL		backward				
+Lex	Type	Regex	Direction
+are ruled out	DEFINITE_NEGATED_EXISTENCE		backward
+be ruled out	INDICATION		backward
+being ruled out	INDICATION		backward
+can be ruled out	DEFINITE_NEGATED_EXISTENCE		backward
+cannot be excluded	AMBIVALENT_EXISTENCE		backward
+cannot totally be excluded	PROBABLE_NEGATED_EXISTENCE		backward
+could be ruled out	DEFINITE_NEGATED_EXISTENCE		backward
+examination	INDICATION	\b(examination|exam|study)\b	backward
+free	DEFINITE_NEGATED_EXISTENCE		backward
+has been ruled out	DEFINITE_NEGATED_EXISTENCE		backward
+have been ruled out	DEFINITE_NEGATED_EXISTENCE		backward
+is in the differential	AMBIVALENT_EXISTENCE	is\sin\sthe\sdifferential	backward
+is negative	DEFINITE_NEGATED_EXISTENCE	(is|was) negative	backward
+is not excluded	AMBIVALENT_EXISTENCE	(is|was|are|were)\snot\sexcluded	backward
+is not entirely excluded	PROBABLE_NEGATED_EXISTENCE	(is|was|are|were|does)\snot\s(entirely|totally|definitely|completely\s) excluded	backward
+is present	DEFINITE_EXISTENCE	(is|are) present	backward
+is ruled out	DEFINITE_NEGATED_EXISTENCE		backward	
+is to be ruled out	INDICATION		backward
+is ruled out	DEFINITE_NEGATED_EXISTENCE		backward
+might be ruled out	PROBABLE_NEGATED_EXISTENCE		backward
+must be ruled out	DEFINITE_NEGATED_EXISTENCE		backward
+not been ruled out	INDICATION		backward
+not definitively seen	PROBABLE_NEGATED_EXISTENCE	not definitively (seen|visualized)	backward
+not excluded	AMBIVALENT_EXISTENCE	not\s(excluded|ruled\sout)	backward
+now measuring	HISTORICAL		backward
 ought to be ruled out	INDICATION		backward				
 progressed	HISTORICAL		backward	3/22/2013			
 protocol	INDICATION		backward				
