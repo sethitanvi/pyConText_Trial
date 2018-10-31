@@ -1,6 +1,6 @@
-Lex	Type	Regex	Direction			
-acute compression	EVIDENCE_OF_ACUTE_COMPRESSION					
+Lex	Type	Regex	Direction
+acute compression	EVIDENCE_OF_ACUTE_COMPRESSION		
 acute compression fracture	EVIDENCE_OF_ACUTE_COMPRESSION		
-compression fracture	AMBIVALENT_CASE_OF_COMPRESSION_FRACTURE
-chronic compression fracture	EVIDENCE_OF_CHRONIC_COMPRESSION
-chronic compression	EVIDENCE_OF_CHRONIC_COMPRESSION
+compression fracture	AMBIVALENT_CASE_OF_COMPRESSION_FRACTURE		
+chronic compression fracture	EVIDENCE_OF_CHRONIC_COMPRESSION		
+chronic compression	EVIDENCE_OF_CHRONIC_COMPRESSION		
