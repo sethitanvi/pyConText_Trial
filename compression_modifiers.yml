@@ -383,7 +383,7 @@ Lex: old
 Regex: ''
 Type: HISTORICAL
 ---
-Comments: need regular expression
+Comments: 'need regular expression'
 Direction: bidirectional
 Lex: on previous exam
 Regex: (on |from )?(previous|prior) exam
