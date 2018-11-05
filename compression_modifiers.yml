@@ -463,12 +463,6 @@ Type: HISTORICAL
 ---
 Comments: ''
 Direction: bidirectional
-Lex: subacute
-Regex: ''
-Type: HISTORICAL
----
-Comments: ''
-Direction: bidirectional
 Lex: suggest
 Regex: \bsuggest[a-z]+\b
 Type: PROBABLE_EXISTENCE
