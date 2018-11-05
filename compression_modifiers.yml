@@ -216,12 +216,6 @@ Type: PROBABLE_NEGATED_EXISTENCE
 ---
 Comments: ''
 Direction: bidirectional
-Lex: acute
-Regex: ''
-Type: ACUTE
----
-Comments: ''
-Direction: bidirectional
 Lex: again
 Regex: ''
 Type: HISTORICAL
