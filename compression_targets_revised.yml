@@ -1,0 +1,17 @@
+Comments: ''
+Direction: ''
+Lex: acute compression
+Regex: \sacute\scompression
+Type: EVIDENCE_OF_ACUTE_COMPRESSION
+---
+Comments: ''
+Direction: ''
+Lex: acute compression fracture
+Regex: \sacute\scompression\s(\bfracture\b|\bfractures\b)
+Type: EVIDENCE_OF_ACUTE_COMPRESSION
+---
+Comments: ''
+Direction: ''
+Lex: subacute compression fracture
+Regex: (\bsubacute\b|\bsub-acute\b)\scompression\s(\bfracture\b|\bfractures\b)
+Type: EVIDENCE_OF_ACUTE_COMPRESSION
