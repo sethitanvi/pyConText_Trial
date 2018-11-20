@@ -15,3 +15,21 @@ Direction: ''
 Lex: subacute compression fracture
 Regex: (\bsubacute\b|\bsub-acute\b)\scompression\s(\bfracture\b|\bfractures\b)
 Type: EVIDENCE_OF_ACUTE_COMPRESSION
+---
+Comments: ''
+Direction: ''
+Lex: compression fracture
+Regex: compression\s(\bfracture\b|\bfractures\b)
+Type: AMBIVALENT_CASE_OF_COMPRESSION_FRACTURE
+---
+Comments: ''
+Direction: ''
+Lex: chronic compression fracture
+Regex: chronic\scompression\s(\bfracture\b|\bfractures\b)
+Type: EVIDENCE_OF_CHRONIC_COMPRESSION
+---
+Comments: ''
+Direction: ''
+Lex: chronic compression
+Regex: ''
+Type: EVIDENCE_OF_CHRONIC_COMPRESSION
