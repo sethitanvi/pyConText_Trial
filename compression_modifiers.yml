@@ -12,6 +12,12 @@ Type: INDICATION
 ---
 Comments: ''
 Direction: backward
+Lex: indicative of
+Regex: ''
+Type: INDICATION
+---
+Comments: ''
+Direction: backward
 Lex: being ruled out
 Regex: ''
 Type: INDICATION
@@ -92,6 +98,24 @@ Comments: 4/29/2013
 Direction: backward
 Lex: is present
 Regex: (is|are) present
+Type: DEFINITE_EXISTENCE
+---
+Comments:
+Direction: bidirectional
+Lex: is moderate to severe
+Regex: is/s(moderate|severe|mild)/sto/s(moderate|severe|mild)
+Type: DEFINITE_EXISTENCE
+---
+Comments:
+Direction: bidirectional
+Lex: severe
+Regex: (severe|acute|moderate|mild)
+Type: DEFINITE_EXISTENCE
+---
+Comments:
+Direction: bidirectional
+Lex: mild-to-moderate
+Regex:
 Type: DEFINITE_EXISTENCE
 ---
 Comments: ''
