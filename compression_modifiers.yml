@@ -103,13 +103,19 @@ Type: DEFINITE_EXISTENCE
 Comments:
 Direction: bidirectional
 Lex: is moderate to severe
-Regex: is/s(moderate|severe|mild)/sto/s(moderate|severe|mild)
+Regex: is\s(moderate|severe|mild|partial)\sto\s(moderate|severe|mild|partial)
 Type: DEFINITE_EXISTENCE
 ---
 Comments:
 Direction: bidirectional
 Lex: severe
-Regex: (severe|acute|moderate|mild)
+Regex: (severe|acute|moderate|mild|partial)
+Type: DEFINITE_EXISTENCE
+---
+Comments:
+Direction: bidirectional
+Lex: may represent
+Regex: \bmay\b.*\brepresent\b
 Type: DEFINITE_EXISTENCE
 ---
 Comments:
@@ -464,7 +470,7 @@ Type: DEFINITE_NEGATED_EXISTENCE
 Comments: ''
 Direction: bidirectional
 Lex: should be considered
-Regex: ''
+Regex: \sshould\sbe\s(at least|in future)\sconsidered
 Type: PROBABLE_EXISTENCE
 ---
 Comments: ''
@@ -711,7 +717,7 @@ Type: AMBIVALENT_EXISTENCE
 Comments: ''
 Direction: forward
 Lex: documented
-Regex: ''
+Regex: (documented|revealed)
 Type: HISTORICAL
 ---
 Comments: ''
@@ -2074,6 +2080,12 @@ Comments: ''
 Direction: forward
 Lex: can see
 Regex: ''
+Type: DEFINITE_EXISTENCE
+---
+Comments: ''
+Direction: forward
+Lex: there is
+Regex: \sthere\s(is|are)
 Type: DEFINITE_EXISTENCE
 ---
 Comments: ''
