@@ -26,7 +26,7 @@ Comments: ''
 Direction: backward
 Lex: cannot be excluded
 Regex: ''
-Type: AMBIVALENT_EXISTENCE
+Type: PROBABLE_EXISTENCE
 ---
 Comments: ''
 Direction: backward
@@ -68,7 +68,7 @@ Comments: ''
 Direction: backward
 Lex: is in the differential
 Regex: is\sin\sthe\sdifferential
-Type: AMBIVALENT_EXISTENCE
+Type: PROBABLE_EXISTENCE
 ---
 Comments: ''
 Direction: backward
@@ -80,7 +80,7 @@ Comments: ''
 Direction: backward
 Lex: is not excluded
 Regex: (is|was|are|were)\snot\sexcluded
-Type: AMBIVALENT_EXISTENCE
+Type: PROBABLE_EXISTENCE
 ---
 Comments: 2/28/2013; added definitely; removed ed
 Direction: backward
@@ -140,7 +140,7 @@ Comments: ''
 Direction: backward
 Lex: not excluded
 Regex: not\s(excluded|ruled\sout)
-Type: AMBIVALENT_EXISTENCE
+Type: PROBABLE_EXISTENCE
 ---
 Comments: ''
 Direction: backward
@@ -242,7 +242,7 @@ Comments: 2/28/2013
 Direction: bidirectional
 Lex: cannot be evaluated
 Regex: ''
-Type: AMBIVALENT_EXISTENCE
+Type: PROBABLE_EXISTENCE
 ---
 Comments: '2/28/2013; chronicity: make regular expression to capture variations'
 Direction: bidirectional
@@ -296,7 +296,7 @@ Comments: 4/29/2013
 Direction: bidirectional
 Lex: incompletely evaluated
 Regex: ''
-Type: AMBIVALENT_EXISTENCE
+Type: PROBABLE_EXISTENCE
 ---
 Comments: ''
 Direction: bidirectional
@@ -314,7 +314,7 @@ Comments: 4/29/2013
 Direction: bidirectional
 Lex: less likely
 Regex: ''
-Type: AMBIVALENT_EXISTENCE
+Type: PROBABLE_EXISTENCE
 ---
 Comments: ''
 Direction: bidirectional
@@ -471,7 +471,7 @@ Comments: ''
 Direction: bidirectional
 Lex: versus
 Regex: ''
-Type: AMBIVALENT_EXISTENCE
+Type: PROBABLE_EXISTENCE
 ---
 Comments: ''
 Direction: forward
@@ -532,19 +532,19 @@ Comments: ''
 Direction: forward
 Lex: cannot
 Regex: ''
-Type: AMBIVALENT_EXISTENCE
+Type: PROBABLE_EXISTENCE
 ---
 Comments: ''
 Direction: forward
 Lex: cannot exclude
 Regex: cannot\sexclude
-Type: AMBIVALENT_EXISTENCE
+Type: PROBABLE_EXISTENCE
 ---
 Comments: ''
 Direction: forward
 Lex: cannot see
 Regex: ''
-Type: AMBIVALENT_EXISTENCE
+Type: PROBABLE_EXISTENCE
 ---
 Comments: ''
 Direction: forward
@@ -682,7 +682,7 @@ Comments: ''
 Direction: forward
 Lex: differential diagnosis would include
 Regex: differential\s((diagnosis|considerations)\s)?((would|could)\sinclud[a-z]*)?
-Type: AMBIVALENT_EXISTENCE
+Type: PROBABLE_EXISTENCE
 ---
 Comments: ''
 Direction: forward
@@ -868,7 +868,7 @@ Comments: ''
 Direction: forward
 Lex: no complaints of
 Regex: ''
-Type: AMBIVALENT_EXISTENCE
+Type: PROBABLE_EXISTENCE
 ---
 Comments: ''
 Direction: forward
@@ -1072,13 +1072,13 @@ Comments: ''
 Direction: forward
 Lex: not know of
 Regex: ''
-Type: AMBIVALENT_EXISTENCE
+Type: PROBABLE_EXISTENCE
 ---
 Comments: ''
 Direction: forward
 Lex: not known to have
 Regex: ''
-Type: AMBIVALENT_EXISTENCE
+Type: PROBABLE_EXISTENCE
 ---
 Comments: ''
 Direction: forward
@@ -1348,7 +1348,7 @@ Comments: ''
 Direction: forward
 Lex: test for
 Regex: ''
-Type: AMBIVALENT_EXISTENCE
+Type: PROBABLE_EXISTENCE
 ---
 Comments: ''
 Direction: forward
@@ -1360,13 +1360,13 @@ Comments: ''
 Direction: forward
 Lex: unable to adequately assess
 Regex: ''
-Type: AMBIVALENT_EXISTENCE
+Type: PROBABLE_EXISTENCE
 ---
 Comments: ''
 Direction: forward
 Lex: unable to assess
 Regex: ''
-Type: AMBIVALENT_EXISTENCE
+Type: PROBABLE_EXISTENCE
 ---
 Comments: ''
 Direction: forward
@@ -2026,7 +2026,7 @@ Comments: ''
 Direction: bidirectional
 Lex: borderline
 Regex: ''
-Type: AMBIVALENT_EXISTENCE
+Type: PROBABLE_EXISTENCE
 ---
 Comments: ''
 Direction: forward
@@ -2056,7 +2056,7 @@ Comments: ''
 Direction: forward
 Lex: cannot rule out
 Regex: cannot rule (the patient |him |her )?out
-Type: AMBIVALENT_EXISTENCE
+Type: PROBABLE_EXISTENCE
 ---
 Comments: ''
 Direction: backward
@@ -2080,7 +2080,7 @@ Comments: ''
 Direction: bidirectional
 Lex: could not be ruled
 Regex: ''
-Type: AMBIVALENT_EXISTENCE
+Type: PROBABLE_EXISTENCE
 ---
 Comments: ''
 Direction: forward
@@ -2092,7 +2092,7 @@ Comments: ''
 Direction: bidirectional
 Lex: equivocal
 Regex: ''
-Type: AMBIVALENT_EXISTENCE
+Type: PROBABLE_EXISTENCE
 ---
 Comments: ''
 Direction: forward
@@ -2128,19 +2128,19 @@ Comments: ''
 Direction: bidirectional
 Lex: highly hesitant
 Regex: ''
-Type: AMBIVALENT_EXISTENCE
+Type: PROBABLE_EXISTENCE
 ---
 Comments: ''
 Direction: bidirectional
 Lex: indication
 Regex: ''
-Type: AMBIVALENT_EXISTENCE
+Type: PROBABLE_EXISTENCE
 ---
 Comments: ''
 Direction: forward
 Lex: insufficient to rule (the patient|him|her) out for
 Regex: ''
-Type: AMBIVALENT_EXISTENCE
+Type: PROBABLE_EXISTENCE
 ---
 Comments: ''
 Direction: bidirectional
@@ -2170,7 +2170,7 @@ Comments: ''
 Direction: forward
 Lex: not adequate to rule out
 Regex: not adequate to rule ((the patient|him|her)\s)?out
-Type: AMBIVALENT_EXISTENCE
+Type: PROBABLE_EXISTENCE
 ---
 Comments: ''
 Direction: bidirectional
@@ -2206,13 +2206,13 @@ Comments: ''
 Direction: backward
 Lex: was not excluded
 Regex: (was|were) not excluded
-Type: AMBIVALENT_EXISTENCE
+Type: PROBABLE_EXISTENCE
 ---
 Comments: ''
 Direction: forward
 Lex: if
 Regex: ''
-Type: HYPOTHETICAL
+Type: PROBABLE_EXISTENCE
 ---
 Comments: ''
 Direction: bidirectional
