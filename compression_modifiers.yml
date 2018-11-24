@@ -11,12 +11,6 @@ Regex: ''
 Type: INDICATION
 ---
 Comments: ''
-Direction: bidirectional
-Lex: indicative of
-Regex: ''
-Type: INDICATION
----
-Comments: ''
 Direction: backward
 Lex: being ruled out
 Regex: ''
@@ -38,7 +32,7 @@ Comments: ''
 Direction: backward
 Lex: cannot totally be excluded
 Regex: ''
-Type: PROBABLE_NEGATED_EXISTENCE
+Type: PROBABLE_EXISTENCE
 ---
 Comments: ''
 Direction: backward
@@ -92,42 +86,12 @@ Comments: 2/28/2013; added definitely; removed ed
 Direction: backward
 Lex: is not entirely excluded
 Regex: (is|was|are|were|does)\snot\s(entirely|totally|definitely|completely\s) excluded
-Type: PROBABLE_NEGATED_EXISTENCE
+Type: PROBABLE_EXISTENCE
 ---
 Comments: 4/29/2013
 Direction: backward
 Lex: is present
 Regex: (is|are) present
-Type: DEFINITE_EXISTENCE
----
-Comments: 'for acute compression fracture'
-Direction: backward
-Lex: of t1
-Regex: \s(of|in|at)(\sthe)?\s(t1|t2|t3|t4|t5|t6|t7|t8|t9|t10|t11|t12|l1|l2|l3|l4|l5)
-Type: DEFINITE_EXISTENCE
----
-Comments:
-Direction: bidirectional
-Lex: is moderate to severe
-Regex: is\s(moderate|severe|mild|partial)\sto\s(moderate|severe|mild|partial)
-Type: DEFINITE_EXISTENCE
----
-Comments:
-Direction: bidirectional
-Lex: severe
-Regex: (severe|acute|moderate|mild|partial)
-Type: DEFINITE_EXISTENCE
----
-Comments:
-Direction: bidirectional
-Lex: may represent
-Regex: \bmay\b.*\brepresent\b
-Type: DEFINITE_EXISTENCE
----
-Comments:
-Direction: bidirectional
-Lex: mild-to-moderate
-Regex:
 Type: DEFINITE_EXISTENCE
 ---
 Comments: ''
@@ -152,7 +116,7 @@ Comments: ''
 Direction: backward
 Lex: might be ruled out
 Regex: ''
-Type: PROBABLE_NEGATED_EXISTENCE
+Type: PROBABLE_EXISTENCE
 ---
 Comments: ''
 Direction: backward
@@ -170,7 +134,7 @@ Comments: 3/22/2013
 Direction: backward
 Lex: not definitively seen
 Regex: not definitively (seen|visualized)
-Type: PROBABLE_NEGATED_EXISTENCE
+Type: PROBABLE_EXISTENCE
 ---
 Comments: ''
 Direction: backward
@@ -248,7 +212,7 @@ Comments: 2/28/2013
 Direction: backward
 Lex: would not be expected
 Regex: ''
-Type: PROBABLE_NEGATED_EXISTENCE
+Type: PROBABLE_EXISTENCE
 ---
 Comments: ''
 Direction: bidirectional
@@ -272,7 +236,7 @@ Comments: 2/28/2013
 Direction: bidirectional
 Lex: cannot be completely excluded
 Regex: cannot\sbe\s((entirely|completely|totally)\s)?(excluded|ruled out)
-Type: PROBABLE_NEGATED_EXISTENCE
+Type: PROBABLE_EXISTENCE
 ---
 Comments: 2/28/2013
 Direction: bidirectional
@@ -290,7 +254,7 @@ Comments: ''
 Direction: bidirectional
 Lex: clear
 Regex: ''
-Type: PROBABLE_NEGATED_EXISTENCE
+Type: PROBABLE_EXISTENCE
 ---
 Comments: ''
 Direction: bidirectional
@@ -465,7 +429,7 @@ Comments: 4/29/2013
 Direction: bidirectional
 Lex: questionable
 Regex: ''
-Type: PROBABLE_NEGATED_EXISTENCE
+Type: PROBABLE_EXISTENCE
 ---
 Comments: ''
 Direction: bidirectional
@@ -476,7 +440,7 @@ Type: DEFINITE_NEGATED_EXISTENCE
 Comments: ''
 Direction: bidirectional
 Lex: should be considered
-Regex: \sshould\sbe\s(at least|in future)\sconsidered
+Regex: ''
 Type: PROBABLE_EXISTENCE
 ---
 Comments: ''
@@ -544,7 +508,7 @@ Comments: 4/29/2013
 Direction: forward
 Lex: atypical for
 Regex: ''
-Type: PROBABLE_NEGATED_EXISTENCE
+Type: PROBABLE_EXISTENCE
 ---
 Comments: ''
 Direction: forward
@@ -586,7 +550,7 @@ Comments: ''
 Direction: forward
 Lex: cannot totally exclude
 Regex: ''
-Type: PROBABLE_NEGATED_EXISTENCE
+Type: PROBABLE_EXISTENCE
 ---
 Comments: ''
 Direction: forward
@@ -658,7 +622,7 @@ Comments: ''
 Direction: forward
 Lex: declines
 Regex: ''
-Type: PROBABLE_NEGATED_EXISTENCE
+Type: PROBABLE_EXISTENCE
 ---
 Comments: make regular expression to capture variations
 Direction: forward
@@ -682,25 +646,25 @@ Comments: ''
 Direction: forward
 Lex: denied
 Regex: ''
-Type: PROBABLE_NEGATED_EXISTENCE
+Type: PROBABLE_EXISTENCE
 ---
 Comments: ''
 Direction: forward
 Lex: denies
 Regex: ''
-Type: PROBABLE_NEGATED_EXISTENCE
+Type: PROBABLE_EXISTENCE
 ---
 Comments: ''
 Direction: forward
 Lex: deny
 Regex: ''
-Type: PROBABLE_NEGATED_EXISTENCE
+Type: PROBABLE_EXISTENCE
 ---
 Comments: ''
 Direction: forward
 Lex: denying
 Regex: ''
-Type: PROBABLE_NEGATED_EXISTENCE
+Type: PROBABLE_EXISTENCE
 ---
 Comments: ''
 Direction: forward
@@ -723,7 +687,7 @@ Type: PROBABLE_EXISTENCE
 Comments: ''
 Direction: forward
 Lex: documented
-Regex: (documented|revealed)
+Regex: ''
 Type: HISTORICAL
 ---
 Comments: ''
@@ -826,7 +790,7 @@ Comments: ''
 Direction: forward
 Lex: low probability
 Regex: ''
-Type: PROBABLE_NEGATED_EXISTENCE
+Type: PROBABLE_EXISTENCE
 ---
 Comments: 2/28/2013
 Direction: forward
@@ -844,13 +808,13 @@ Comments: ''
 Direction: forward
 Lex: might be ruled out for
 Regex: ''
-Type: PROBABLE_NEGATED_EXISTENCE
+Type: PROBABLE_EXISTENCE
 ---
 Comments: 3/22/2013
 Direction: forward
 Lex: mimicking
 Regex: ''
-Type: PROBABLE_NEGATED_EXISTENCE
+Type: PROBABLE_EXISTENCE
 ---
 Comments: ''
 Direction: forward
@@ -874,7 +838,7 @@ Comments: ''
 Direction: forward
 Lex: never developed
 Regex: ''
-Type: PROBABLE_NEGATED_EXISTENCE
+Type: PROBABLE_EXISTENCE
 ---
 Comments: ''
 Direction: forward
@@ -898,7 +862,7 @@ Comments: ''
 Direction: forward
 Lex: no cause of
 Regex: ''
-Type: PROBABLE_NEGATED_EXISTENCE
+Type: PROBABLE_EXISTENCE
 ---
 Comments: ''
 Direction: forward
@@ -910,7 +874,7 @@ Comments: ''
 Direction: forward
 Lex: no convincing
 Regex: ''
-Type: PROBABLE_NEGATED_EXISTENCE
+Type: PROBABLE_EXISTENCE
 ---
 Comments: ''
 Direction: forward
@@ -934,7 +898,7 @@ Comments: ''
 Direction: forward
 Lex: no findings of
 Regex: ''
-Type: PROBABLE_NEGATED_EXISTENCE
+Type: PROBABLE_EXISTENCE
 ---
 Comments: ''
 Direction: forward
@@ -958,25 +922,25 @@ Comments: ''
 Direction: forward
 Lex: no obvious
 Regex: ''
-Type: PROBABLE_NEGATED_EXISTENCE
+Type: PROBABLE_EXISTENCE
 ---
 Comments: ''
 Direction: forward
 Lex: no other
 Regex: ''
-Type: PROBABLE_NEGATED_EXISTENCE
+Type: PROBABLE_EXISTENCE
 ---
 Comments: ''
 Direction: forward
 Lex: no sign of
 Regex: ''
-Type: PROBABLE_NEGATED_EXISTENCE
+Type: PROBABLE_EXISTENCE
 ---
 Comments: ''
 Direction: forward
 Lex: no significant
 Regex: ''
-Type: PROBABLE_NEGATED_EXISTENCE
+Type: PROBABLE_EXISTENCE
 ---
 Comments: ''
 Direction: forward
@@ -1000,7 +964,7 @@ Comments: ''
 Direction: forward
 Lex: no definite signs of
 Regex: (no|without) (definite|definitive|secondary|indirect) ((radiographic|sonographic|CT)\s)?signs\s(of|for)
-Type: PROBABLE_NEGATED_EXISTENCE
+Type: PROBABLE_EXISTENCE
 ---
 Comments: ''
 Direction: forward
@@ -1024,19 +988,19 @@ Comments: ''
 Direction: forward
 Lex: nor
 Regex: \bnor\b
-Type: PROBABLE_NEGATED_EXISTENCE
+Type: PROBABLE_EXISTENCE
 ---
 Comments: ''
 Direction: forward
 Lex: not appreciate
 Regex: ''
-Type: PROBABLE_NEGATED_EXISTENCE
+Type: PROBABLE_EXISTENCE
 ---
 Comments: ''
 Direction: forward
 Lex: not associated with
 Regex: ''
-Type: PROBABLE_NEGATED_EXISTENCE
+Type: PROBABLE_EXISTENCE
 ---
 Comments: ''
 Direction: forward
@@ -1054,13 +1018,13 @@ Comments: 3/22/2013
 Direction: forward
 Lex: not clearly evident
 Regex: ''
-Type: PROBABLE_NEGATED_EXISTENCE
+Type: PROBABLE_EXISTENCE
 ---
 Comments: ''
 Direction: forward
 Lex: not complain of
 Regex: ''
-Type: PROBABLE_NEGATED_EXISTENCE
+Type: PROBABLE_EXISTENCE
 ---
 Comments: ''
 Direction: forward
@@ -1090,7 +1054,7 @@ Comments: ''
 Direction: forward
 Lex: not feel
 Regex: ''
-Type: PROBABLE_NEGATED_EXISTENCE
+Type: PROBABLE_EXISTENCE
 ---
 Comments: ''
 Direction: forward
@@ -1138,13 +1102,13 @@ Comments: ''
 Direction: forward
 Lex: not to be
 Regex: ''
-Type: PROBABLE_NEGATED_EXISTENCE
+Type: PROBABLE_EXISTENCE
 ---
 Comments: ''
 Direction: forward
 Lex: nothing
 Regex: ''
-Type: PROBABLE_NEGATED_EXISTENCE
+Type: PROBABLE_EXISTENCE
 ---
 Comments: ''
 Direction: forward
@@ -1354,7 +1318,7 @@ Comments: 3/22/2013
 Direction: forward
 Lex: simulating
 Regex: ''
-Type: PROBABLE_NEGATED_EXISTENCE
+Type: PROBABLE_EXISTENCE
 ---
 Comments: ''
 Direction: forward
@@ -1390,7 +1354,7 @@ Comments: ''
 Direction: forward
 Lex: to exclude
 Regex: ''
-Type: PROBABLE_NEGATED_EXISTENCE
+Type: PROBABLE_EXISTENCE
 ---
 Comments: ''
 Direction: forward
@@ -1456,7 +1420,7 @@ Comments: ''
 Direction: forward
 Lex: without indication
 Regex: ''
-Type: PROBABLE_NEGATED_EXISTENCE
+Type: PROBABLE_EXISTENCE
 ---
 Comments: ''
 Direction: forward
@@ -2090,12 +2054,6 @@ Type: DEFINITE_EXISTENCE
 ---
 Comments: ''
 Direction: forward
-Lex: there is
-Regex: \sthere\s(is|are)\s
-Type: DEFINITE_EXISTENCE
----
-Comments: ''
-Direction: forward
 Lex: cannot rule out
 Regex: cannot rule (the patient |him |her )?out
 Type: PROBABLE_EXISTENCE
@@ -2194,19 +2152,19 @@ Comments: ''
 Direction: forward
 Lex: no other (CT|radiographic|sonographic|MR|etc) evidence
 Regex: ''
-Type: PROBABLE_NEGATED_EXISTENCE
+Type: PROBABLE_EXISTENCE
 ---
 Comments: ''
 Direction: forward
 Lex: no secondary (CT|radiographic|sonographic|MR|etc) signs
 Regex: ''
-Type: PROBABLE_NEGATED_EXISTENCE
+Type: PROBABLE_EXISTENCE
 ---
 Comments: ''
 Direction: forward
 Lex: no suspicious
 Regex: ''
-Type: PROBABLE_NEGATED_EXISTENCE
+Type: PROBABLE_EXISTENCE
 ---
 Comments: ''
 Direction: forward
@@ -2278,7 +2236,7 @@ Comments: ''
 Direction: forward
 Lex: decrease the likelihood
 Regex: decreas[a-z]+(\sthe)? likelihood
-Type: PROBABLE_NEGATED_EXISTENCE
+Type: PROBABLE_EXISTENCE
 ---
 Comments: ''
 Direction: forward
