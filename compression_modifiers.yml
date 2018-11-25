@@ -428,7 +428,7 @@ Type: HISTORICAL
 Comments: 2/28/2013
 Direction: bidirectional
 Lex: possible
-Regex: ''
+Regex: possible|possibility|possibly
 Type: PROBABLE_EXISTENCE
 ---
 Comments: 3/21/2013; changed to bidirectional
