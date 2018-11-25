@@ -2089,7 +2089,7 @@ Regex: ''
 Type: DEFINITE_EXISTENCE
 ---
 Comments: ''
-Direction: forward
+Direction: bidirectional
 Lex: there is
 Regex: \sthere\s(is|are)
 Type: DEFINITE_EXISTENCE
