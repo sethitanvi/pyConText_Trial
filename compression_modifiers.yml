@@ -890,7 +890,7 @@ Type: DEFINITE_NEGATED_EXISTENCE
 ---
 Comments: ''
 Direction: forward
-Lex: no
+Lex: 'no'
 Regex: \bno\b
 Type: DEFINITE_NEGATED_EXISTENCE
 ---
