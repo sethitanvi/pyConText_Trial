@@ -427,7 +427,7 @@ Type: HISTORICAL
 ---
 Comments: 2/28/2013
 Direction: bidirectional
-Lex: possible
+Lex: possibility
 Regex: (\bpossible\b)|(\bpossibility\b)|(\bpossibly\b)
 Type: PROBABLE_EXISTENCE
 ---
@@ -927,13 +927,13 @@ Type: HISTORICAL
 Comments: 2/28/2013; added other probably consider simplifying re as XYZ
 Direction: forward
 Lex: no evidence of
-Regex: (no|without)\s((definite|other|definitive|secondary|indirect)\s)?((radiographic|sonographic|CT)\s)?evidence\s(of|for)
+Regex: ''
 Type: DEFINITE_NEGATED_EXISTENCE
 ---
 Comments: ''
 Direction: forward
 Lex: no findings of
-Regex: no\s(findings|evidence)\sof
+Regex: ''
 Type: PROBABLE_EXISTENCE
 ---
 Comments: ''
