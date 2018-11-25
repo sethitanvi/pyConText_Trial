@@ -936,6 +936,12 @@ Lex: no evidence of
 Regex: ''
 Type: DEFINITE_NEGATED_EXISTENCE
 ---
+Comments: 2/28/2013; added other probably consider simplifying re as XYZ
+Direction: bidirectional
+Lex: no evidence
+Regex: ''
+Type: DEFINITE_NEGATED_EXISTENCE
+---
 Comments: ''
 Direction: forward
 Lex: no findings of
