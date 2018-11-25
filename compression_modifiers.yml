@@ -428,7 +428,13 @@ Type: HISTORICAL
 Comments: 2/28/2013
 Direction: bidirectional
 Lex: possibility
-Regex: (\bpossible\b)|(\bpossibility\b)|(\bpossibly\b)
+Regex: ''
+Type: PROBABLE_EXISTENCE
+---
+Comments: 2/28/2013
+Direction: bidirectional
+Lex: possible
+Regex: ''
 Type: PROBABLE_EXISTENCE
 ---
 Comments: 3/21/2013; changed to bidirectional
@@ -925,7 +931,7 @@ Regex: ''
 Type: HISTORICAL
 ---
 Comments: 2/28/2013; added other probably consider simplifying re as XYZ
-Direction: forward
+Direction: bidirectional
 Lex: no evidence of
 Regex: ''
 Type: DEFINITE_NEGATED_EXISTENCE
