@@ -428,7 +428,7 @@ Type: HISTORICAL
 Comments: 2/28/2013
 Direction: bidirectional
 Lex: possible
-Regex: possible|possibility|possibly
+Regex: (\bpossible\b)|(\bpossibility\b)|(\bpossibly\b)
 Type: PROBABLE_EXISTENCE
 ---
 Comments: 3/21/2013; changed to bidirectional
@@ -933,7 +933,7 @@ Type: DEFINITE_NEGATED_EXISTENCE
 Comments: ''
 Direction: forward
 Lex: no findings of
-Regex: no (findings|evidence) of
+Regex: no\s(findings|evidence)\sof
 Type: PROBABLE_EXISTENCE
 ---
 Comments: ''
@@ -2090,8 +2090,14 @@ Type: DEFINITE_EXISTENCE
 ---
 Comments: ''
 Direction: bidirectional
+Lex: there are
+Regex: ''
+Type: DEFINITE_EXISTENCE
+---
+Comments: ''
+Direction: bidirectional
 Lex: there is
-Regex: \sthere\s(is|are)
+Regex: ''
 Type: DEFINITE_EXISTENCE
 ---
 Comments: ''
