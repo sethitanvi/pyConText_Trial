@@ -933,7 +933,7 @@ Type: DEFINITE_NEGATED_EXISTENCE
 Comments: ''
 Direction: forward
 Lex: no findings of
-Regex: ''
+Regex: no (findings|evidence) of
 Type: PROBABLE_EXISTENCE
 ---
 Comments: ''
