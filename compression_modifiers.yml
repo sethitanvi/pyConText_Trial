@@ -126,6 +126,12 @@ Type: DEFINITE_EXISTENCE
 ---
 Comments:
 Direction: bidirectional
+Lex: there is no evidence
+Regex: \there\b.*\bno\b
+Type: DEFINITE_NEGATED_EXISTENCE
+---
+Comments:
+Direction: bidirectional
 Lex: mild-to-moderate
 Regex:
 Type: DEFINITE_EXISTENCE
@@ -970,7 +976,7 @@ Comments: ''
 Direction: forward
 Lex: no obvious
 Regex: ''
-Type: PROBABLE_EXISTENCE
+Type: DEFINITE_NEGATED_EXISTENCE
 ---
 Comments: ''
 Direction: forward
@@ -1487,6 +1493,12 @@ Direction: forward
 Lex: '#NAME?'
 Regex: ''
 Type: DEFINITE_NEGATED_EXISTENCE
+---
+Comments: ''
+Direction: bidirectional
+Lex: and
+Regex: ''
+Type: CONJ
 ---
 Comments: ''
 Direction: terminate
