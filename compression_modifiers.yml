@@ -1495,12 +1495,6 @@ Regex: ''
 Type: DEFINITE_NEGATED_EXISTENCE
 ---
 Comments: ''
-Direction: bidirectional
-Lex: and
-Regex: ''
-Type: CONJ
----
-Comments: ''
 Direction: terminate
 Lex: although
 Regex: ''
