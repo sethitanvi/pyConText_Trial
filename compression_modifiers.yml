@@ -8,19 +8,19 @@ Comments: ''
 Direction: backward
 Lex: be ruled out
 Regex: ''
-Type: INDICATION
+Type: PROBABLE_EXISTENCE
 ---
 Comments: ''
 Direction: bidirectional
 Lex: indicative of
 Regex: ''
-Type: INDICATION
+Type: PROBABLE_EXISTENCE
 ---
 Comments: ''
 Direction: backward
 Lex: being ruled out
 Regex: ''
-Type: INDICATION
+Type: PROBABLE_EXISTENCE
 ---
 Comments: ''
 Direction: backward
@@ -50,7 +50,7 @@ Comments: ''
 Direction: backward
 Lex: examination
 Regex: \b(examination|exam|study)\b
-Type: INDICATION
+Type: PROBABLE_EXISTENCE
 ---
 Comments: ''
 Direction: backward
@@ -146,7 +146,7 @@ Comments: ''
 Direction: backward
 Lex: is to be ruled out
 Regex: ''
-Type: INDICATION
+Type: PROBABLE_EXISTENCE
 ---
 Comments: ''
 Direction: backward
@@ -170,7 +170,7 @@ Comments: ''
 Direction: backward
 Lex: not been ruled out
 Regex: ''
-Type: INDICATION
+Type: PROBABLE_EXISTENCE
 ---
 Comments: 3/22/2013
 Direction: backward
@@ -194,7 +194,7 @@ Comments: ''
 Direction: backward
 Lex: ought to be ruled out
 Regex: ''
-Type: INDICATION
+Type: PROBABLE_EXISTENCE
 ---
 Comments: 3/22/2013
 Direction: backward
@@ -206,7 +206,7 @@ Comments: ''
 Direction: backward
 Lex: protocol
 Regex: ''
-Type: INDICATION
+Type: PROBABLE_EXISTENCE
 ---
 Comments: ''
 Direction: backward
@@ -218,7 +218,7 @@ Comments: ''
 Direction: backward
 Lex: should be ruled out
 Regex: ''
-Type: INDICATION
+Type: PROBABLE_EXISTENCE
 ---
 Comments: 4/29/2013
 Direction: backward
@@ -248,7 +248,7 @@ Comments: ''
 Direction: backward
 Lex: will be ruled out
 Regex: ''
-Type: INDICATION
+Type: PROBABLE_EXISTENCE
 ---
 Comments: 2/28/2013
 Direction: backward
@@ -314,7 +314,7 @@ Comments: ''
 Direction: bidirectional
 Lex: evaluation
 Regex: ''
-Type: INDICATION
+Type: PROBABLE_EXISTENCE
 ---
 Comments: ''
 Direction: bidirectional
@@ -488,7 +488,7 @@ Type: DEFINITE_NEGATED_EXISTENCE
 Comments: ''
 Direction: bidirectional
 Lex: should be considered
-Regex: \sshould\sbe\s(at least|in future)\sconsidered
+Regex: \sshould\sbe\s(at least|in PROBABLE_EXISTENCE)\sconsidered
 Type: PROBABLE_EXISTENCE
 ---
 Comments: ''
@@ -544,13 +544,13 @@ Comments: ''
 Direction: forward
 Lex: assessment for
 Regex: ''
-Type: INDICATION
+Type: PROBABLE_EXISTENCE
 ---
 Comments: 4/29/2013
 Direction: forward
 Lex: at risk for
-Regex: (at\s)?risk\s(in\sthe\sfuture\s)?(for|of)
-Type: FUTURE
+Regex: (at\s)?risk\s(in\sthe\sPROBABLE_EXISTENCE\s)?(for|of)
+Type: PROBABLE_EXISTENCE
 ---
 Comments: 4/29/2013
 Direction: forward
@@ -562,7 +562,7 @@ Comments: ''
 Direction: forward
 Lex: be ruled out for
 Regex: ''
-Type: INDICATION
+Type: PROBABLE_EXISTENCE
 ---
 Comments: ''
 Direction: forward
@@ -622,7 +622,7 @@ Comments: '2/28/2013; simplified expression '
 Direction: forward
 Lex: clinical concern
 Regex: clinical (concern|suspicion)\b
-Type: FUTURE
+Type: PROBABLE_EXISTENCE
 ---
 Comments: ''
 Direction: forward
@@ -742,13 +742,13 @@ Comments: ''
 Direction: forward
 Lex: evaluate for
 Regex: ''
-Type: INDICATION
+Type: PROBABLE_EXISTENCE
 ---
 Comments: ''
 Direction: forward
 Lex: evaluation of
 Regex: evaluation\s(of|for)
-Type: INDICATION
+Type: PROBABLE_EXISTENCE
 ---
 Comments: ''
 Direction: forward
@@ -766,7 +766,7 @@ Comments: ''
 Direction: forward
 Lex: examination for
 Regex: (study|exam|examination) for
-Type: INDICATION
+Type: PROBABLE_EXISTENCE
 ---
 Comments: ''
 Direction: forward
@@ -790,7 +790,7 @@ Comments: 2/28/2013
 Direction: forward
 Lex: higher sensitivity for
 Regex: ''
-Type: INDICATION
+Type: PROBABLE_EXISTENCE
 ---
 Comments: 4/29/2013
 Direction: forward
@@ -808,25 +808,25 @@ Comments: 2/28/2013
 Direction: forward
 Lex: if there are
 Regex: ''
-Type: FUTURE
+Type: PROBABLE_EXISTENCE
 ---
 Comments: ''
 Direction: forward
 Lex: if there is concern for
 Regex: ''
-Type: FUTURE
+Type: PROBABLE_EXISTENCE
 ---
 Comments: ''
 Direction: forward
 Lex: is to be ruled out for
 Regex: ''
-Type: INDICATION
+Type: PROBABLE_EXISTENCE
 ---
 Comments: ''
 Direction: forward
 Lex: is more sensitive
 Regex: is more sensitive
-Type: INDICATION
+Type: PROBABLE_EXISTENCE
 ---
 Comments: ''
 Direction: forward
@@ -1174,7 +1174,7 @@ Comments: ''
 Direction: forward
 Lex: ought to be ruled out for
 Regex: ''
-Type: INDICATION
+Type: PROBABLE_EXISTENCE
 ---
 Comments: ''
 Direction: forward
@@ -1192,7 +1192,7 @@ Comments: 2/14/2013
 Direction: forward
 Lex: 'predispose to '
 Regex: ''
-Type: FUTURE
+Type: PROBABLE_EXISTENCE
 ---
 Comments: ''
 Direction: forward
@@ -1246,49 +1246,49 @@ Comments: ''
 Direction: forward
 Lex: rule her out
 Regex: ''
-Type: INDICATION
+Type: PROBABLE_EXISTENCE
 ---
 Comments: ''
 Direction: forward
 Lex: rule him out
 Regex: ''
-Type: INDICATION
+Type: PROBABLE_EXISTENCE
 ---
 Comments: ''
 Direction: forward
 Lex: rule him out for
 Regex: ''
-Type: INDICATION
+Type: PROBABLE_EXISTENCE
 ---
 Comments: ''
 Direction: forward
 Lex: rule out
 Regex: (r/o|rule out|\br o\b|r\.o\.|\bro\b)
-Type: INDICATION
+Type: PROBABLE_EXISTENCE
 ---
 Comments: ''
 Direction: forward
 Lex: rule out for
 Regex: ''
-Type: INDICATION
+Type: PROBABLE_EXISTENCE
 ---
 Comments: ''
 Direction: forward
 Lex: rule patient out for
 Regex: rule (him|her|patient|the patient|subject) out for
-Type: INDICATION
+Type: PROBABLE_EXISTENCE
 ---
 Comments: ''
 Direction: forward
 Lex: rule the patient out
 Regex: ''
-Type: INDICATION
+Type: PROBABLE_EXISTENCE
 ---
 Comments: ''
 Direction: forward
 Lex: rule the patient out for
 Regex: ''
-Type: INDICATION
+Type: PROBABLE_EXISTENCE
 ---
 Comments: 4/16/2013
 Direction: forward
@@ -1366,7 +1366,7 @@ Comments: ''
 Direction: forward
 Lex: should be ruled out for
 Regex: ''
-Type: INDICATION
+Type: PROBABLE_EXISTENCE
 ---
 Comments: 3/22/2013
 Direction: forward
@@ -1378,7 +1378,7 @@ Comments: ''
 Direction: forward
 Lex: study for detection
 Regex: ''
-Type: INDICATION
+Type: PROBABLE_EXISTENCE
 ---
 Comments: ''
 Direction: forward
@@ -1432,25 +1432,25 @@ Comments: 3/22/2013
 Direction: forward
 Lex: warned of
 Regex: ''
-Type: FUTURE
+Type: PROBABLE_EXISTENCE
 ---
 Comments: ''
 Direction: forward
 Lex: were warned
 Regex: ''
-Type: FUTURE
+Type: PROBABLE_EXISTENCE
 ---
 Comments: ''
 Direction: forward
 Lex: what must be ruled out is
 Regex: ''
-Type: INDICATION
+Type: PROBABLE_EXISTENCE
 ---
 Comments: ''
 Direction: forward
 Lex: will be ruled out for
 Regex: ''
-Type: INDICATION
+Type: PROBABLE_EXISTENCE
 ---
 Comments: ''
 Direction: forward
@@ -1472,7 +1472,7 @@ Type: PSEUDONEG
 ---
 Comments: ''
 Direction: forward
-Lex: without indication
+Lex: without PROBABLE_EXISTENCE
 Regex: ''
 Type: PROBABLE_EXISTENCE
 ---
@@ -2162,7 +2162,7 @@ Type: PROBABLE_EXISTENCE
 ---
 Comments: ''
 Direction: forward
-Lex: every indication
+Lex: every PROBABLE_EXISTENCE
 Regex: ''
 Type: PROBABLE_EXISTENCE
 ---
@@ -2198,7 +2198,7 @@ Type: PROBABLE_EXISTENCE
 ---
 Comments: ''
 Direction: bidirectional
-Lex: indication
+Lex: PROBABLE_EXISTENCE
 Regex: ''
 Type: PROBABLE_EXISTENCE
 ---
@@ -2326,7 +2326,7 @@ Comments: ''
 Direction: bidirectional
 Lex: risk factor
 Regex: risk factor(s)?
-Type: FUTURE
+Type: PROBABLE_EXISTENCE
 ---
 Comments: ''
 Direction: bidirectional
